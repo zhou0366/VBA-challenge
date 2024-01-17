@@ -1,6 +1,12 @@
 # VBA-challenge
 bootcamp module 2
 
+Some notes based on feedback on original grading
+-I'm not sure what the "tickerIndex" variable is supposed to be. If there is something to count the total number of stocks evaluated, I am using a variable named "StockNum" for this.
+-I am not sure what the factored and refactored code is referring to. Unless I missed something, the challenge had me create my own code to execute the task required.
+-There was not a year 2017 in the provided data set so I am not able to make that comparison between 2017 and 2018. Some of the other specific feedback regarding is still unclear to me as there are not specific analysis instructions on the challenge page or in the source files
+-I am now adding the files that I tested with and the multiple year stock data resutlts that I got this for this submission
+
 Code description
 
     Outside code used:
@@ -39,3 +45,8 @@ Code description
             -Greatest volume of stock traded
 
 Results
+
+    Regarding the time of execution, the marco runs almost instantaneously with the alphabetical testing file. When running it on the multiple year stock data page, it takes around 30 seconds.
+
+    Some observations on the results:
+    -RKS saw the greatest percent loss for both 2018 (-90%) and 2019 (-91%). While not the greatest loss of 2020 it still saw a percentage loss of 88%
